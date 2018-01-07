@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>Crystal Collector!</title>
+</head>
+<body>
+    <header>
+        <h1 id = "name">Crystal Collector!</h1>
+    </header>
+    <div class = "howToPlay">
+        <p>You will be given a random number at the start of the game.</p>
+        <p>There are four crystals below.  By clicking on a crystal you will add a specific amount of points to your total score.</p>
+        <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+        <p>The value of each crystal is hidden from you until you click on it.</p>
+        <p>Each time when the game starts, the game will change the values of each crystal.</p>
+    </div><br>
+    <div class="random">
+		<div class="number"></div>
+        <br>
+	<div class="results">
+		Wins:<div id='wins'></div>
+		Losses:<div id='losses'></div>
+	</div>
+    <br>
+	<div class='gems'>
+		<img src="assets/images/blue.jpg" class='click' id='blue'>
+		<img src="assets/images/red.jpg" class='click' id='red'>
+		<img src="assets/images/orange.jpg" class='click' id='orange'>
+		<img src="assets/images/green.jpg" class='click' id='green'>
+	</div>
+    <br>
+	<div class='score'>
+		<h3>Your total score is:</h3>
+	</div>
+<br>
+	<div class='math'></div>
+</body>
+</html>
+<!-- Game loads and generates a random number that displays in a div by itself to add to awaits on a click from user
+ - user clicks one of four images, each image has a number tied to it that is randomly generated at game start 
+ between the value of 1-12, as you click each image it adds the values together and compares to number we are 
+ attempting to reach. if total is less game continues if total equals then win add to wins if user goes over its 
+ a loss and game resets and adds a loss.  as game adds it must display the total 
+ make a var for 
+ wins
+ losses 
+ and the computation 
+ random number to get to 
+ green gem - random 1-12
+ red gem - ran
+ blue gem - ran
+ orange gem - ran 
+
+
+ -->
+<!-- The player will have to guess the answer, just like in Hangman. This time, though, the player will guess with numbers instead of letters.
+
+Here's how the app works:
+
+There will be four crystals displayed as buttons on the page.
+
+The player will be shown a random number at the start of the game.
+
+When the player clicks on a crystal, it will add a specific amount of points to the player's total score.
+
+Your game will hide this amount until the player clicks a crystal.
+When they do click one, update the player's score counter.
+The player wins if their total score matches the random number from the beginning of the game.
+
+The player loses if their score goes above the random number.
+
+The game restarts whenever the player wins or loses.
+
+When the game begins again, the player should see a new random number. Also, all the crystals will have four new hidden values. Of course, the user's score (and score counter) will reset to zero.
+The app should show the number of games the player wins and loses. To that end, do not refresh the page as a means to restart the game.
+
+Option 1 Game design notes
+
+The random number shown at the start of the game should be between 19 - 120.
+
+Each crystal should have a random hidden value between 1 - 12. -->

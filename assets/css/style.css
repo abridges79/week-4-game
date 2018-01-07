@@ -1,0 +1,66 @@
+body {
+    background-image: url("../images/cave.jpg");
+    background-size: cover;
+}
+
+header{
+    background-color: orange; 
+    width: 255px;
+    height: 45px;
+}
+
+h1{
+    font-size: 35px;
+    color: white;
+
+}
+.name {
+	text-align: center;
+	color: white;
+	padding-top: 10px;
+}
+
+p {
+	color: rgb(90, 148, 14);
+	font-size: 15px;
+	padding: 5px;
+}
+
+.howToPlay {
+	background-color: rgb(241, 227, 205);
+	padding-top: 10px;
+	width: 400px;
+	height: 300px;
+	margin-top: 10px;
+
+}
+.random {
+    width: 25px;
+    height: 45px;
+    display: inline;
+    
+}
+.number {
+    background-color: seagreen;
+    height: 65px;
+    width: 145px;
+    
+}
+.results{
+    background-color: rgb(14, 145, 185);
+    text-decoration-color: black;
+    height: 65px;
+    width: 145px;
+}
+.score{
+    background-color: teal;
+    width: 145px;
+    height: 15px;
+    color: white;
+}
+.math{
+    background-color: teal;
+    width: 145px;
+    height: 100px;
+    color: white;
+}
